@@ -1,0 +1,58 @@
+body{
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+}
+.PreContainer {
+    width: 935px;
+    display: flex;
+    margin-top: 180px;
+    margin-left: 319px;
+    height: 250px;
+    text-align: center;
+    background-color: skyblue;
+}
+.DegreeContainer{
+	border:2px solid darkcyan;
+	margin: 5px;
+	padding: 10px;
+	width: 300px;
+}
+.splContainer{
+	border:2px solid darkcyan;
+	margin: 5px;
+	padding: 10px;
+	width: 300px;
+}
+.uniContainer{
+	border:2px solid darkcyan;
+	margin: 5px;
+	padding: 10px;
+	width: 300px;
+}
+.collgContainer{
+	border:2px solid darkcyan;
+	margin: 5px;
+	padding: 10px;
+	width: 300px;
+}
+h1{
+	color: white;
+}
+button{
+	width: 200px;
+	padding: 10px;
+	background-color: orange;
+	
+}
+button:hover{
+	background-color:black;
+}
+a{
+	text-decoration: none;
+}
+input.control {
+    margin: -22px;
+    padding: -6px;
+    background-color: lightgreen;
+}

@@ -1,0 +1,56 @@
+body{
+		background-image: url(login\ lo.jpg);
+		background-size: cover;
+	    background-repeat: no-repeat;
+	}
+	form{
+		border: 2px solid skyblue;
+		width: 600px;
+		height: 400px;
+		margin-top: 180px;
+		background-color:rgb(255, 0, 128);
+		background-image: url(OIP.jpeg);
+		background-size: cover;
+	    background-repeat: no-repeat;
+	}
+	input[type="text"] {
+    width: 220px;
+    margin: 10px;
+    padding: 15px;
+    color: red;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px cyan;
+}
+input[type="submit"] {
+    width: 250px;
+    margin: 10px;
+    padding: 15px;
+    background-color: green;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px cyan;
+}
+input[type="submit"]:hover{
+    background-color: orange;
+    color: white;
+}
+input[type="password"]
+{
+	width: 220px;
+    margin: 10px;
+    padding: 15px;
+    color: red;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px cyan;
+}
+.p{
+	margin-right: 80px;
+	color: wheat;
+	margin-right: 120px;
+}
+.pp{
+	color: wheat;
+	margin-top: 20px;
+}
+h1{
+	color: white;
+}

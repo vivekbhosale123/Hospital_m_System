@@ -1,0 +1,88 @@
+@charset "ISO-8859-1";
+body{
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+}
+       .contain{
+            width: 580px;
+            height: 545px;
+            border: 1px solid darkkhaki;
+            margin-left: 840px;
+            opacity: 100%;
+            background-color: skyblue;
+        }
+        .row {
+          display: flex;
+          margin-left: 16px;
+        }
+        .p{
+            margin-left: 197px;
+            font-size: 20px;
+        }
+        .pp{
+            margin-left: 217px;
+            font-size: 20px;
+        }
+        .ppp{
+            margin-left: 234px;
+            font-size: 20px;
+        }
+        .r{
+            margin-left: 198px;
+            font-size: 20px;
+        }
+        .m{
+			margin-top: 20px;
+			font-size: 20px;
+		}
+        form {
+          margin-top: 60px;
+        }
+        input[type="text"] {
+        padding: 11px;
+        margin: 10px;
+        width: 240px;
+       }
+       input[type="email"] {
+        padding: 11px;
+        margin: 10px;
+        width: 240px;
+       }
+      input[type="number"] {
+        padding: 11px;
+        margin: 10px;
+        width: 240px;
+       }
+       input[type="password"] {
+        padding: 11px;
+        margin: 10px;
+        width: 240px;
+      }
+      input[type="submit"] {
+        padding: 11px;
+        margin: 10px;
+        width: 500px;
+        background-color:darkorange;
+        color: white;
+      }
+      input[type="submit"]:hover{
+		  background-color:black;
+	  }
+       label {
+         margin-left: 10px;
+         color:darkred;
+         font-size: 20px;
+       }
+       .t{
+        margin-left: 7px;
+        margin-top: 5px;
+        font-size: 20px;
+       }
+       h1{
+        margin-left: 8px;
+       }
+       h2{
+		   margin-left: 770px;
+		   color: white;
+	   }

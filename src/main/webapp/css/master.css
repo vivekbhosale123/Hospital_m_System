@@ -1,0 +1,72 @@
+body{
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+	background-image: url(hspppppp.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+}
+.container{
+	width: 90%;
+	margin: auto;
+}
+.row{
+	display: flex;
+	justify-content: space-evenly;	
+	height: 100px;
+}
+h1{
+	margin-top: 40px;
+	color:white;
+}
+.drop:hover .dropList{
+	display: block;
+	padding: 5px;	
+	margin: 5px;
+	left: 0px;
+}
+.drop a{
+	text-decoration: none;
+	font-size: 30px;
+	color:white;
+	text-align: center;
+}
+.drop a:hover{
+	color:black;
+}
+.dropList{
+	list-style: none;
+	display: none;
+	background-color: #f2f2f2;
+	text-align: center;
+}
+.dropList li{
+	padding: 2px;
+}
+.dropList li a{
+	text-decoration:none;
+	color: black;
+}
+.dropList li a:hover{
+	color:blue;
+	letter-spacing: 1px;
+}
+label.rr {
+    margin-left: 231px;
+}
+select {
+    width: 243px;
+    padding: 10px;
+    margin: 8px;
+}
+.p {
+    margin-left: 201px;
+}
+.pp {
+    margin-left: 216px;
+}
+.r {
+    margin-left: 200px;
+}

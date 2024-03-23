@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,a,button{
+    font-family:'Times New Roman', Times, serif;
+}
+aside.bg{
+    background-color: #222;
+    color: white;
+    padding: 12px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 25%;
+    text-align: center;
+    align-items: center;
+}
+aside.bg .logo{
+    text-transform:uppercase;
+    color: #fff;
+    font-weight: bolder;
+}
+aside.bg .logo span{
+    color: red;
+}
+aside.bg h2.logo{
+    font-size: 32px;
+    line-height: 36px;
+    margin: 32px 8px;
+}
+aside.bg nav ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    margin: 24px 0;
+}
+aside.bg nav ul li a:hover{
+    letter-spacing: 4px;
+    color: orangered;
+}
+aside.bg nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+aside.bg nav ul li{
+    margin-bottom: 40px;
+}
+.me a{
+    font-size: 24px;
+    color:white;
+    margin: 16px;
+}
+.me a:hover{
+    color: orangered;
+}
+section{
+    margin: 40px 0 0 25%;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+.d-flex {
+    display: flex;
+}
+.d-flex .col img{
+   max-width: 100%;
+   height: 90vh;
+   margin-left: 90px;
+   border: 3px solid black;
+   box-shadow: #fff;
+}
+.hi{
+    color: orangered;
+    font-size: 24px;
+}
+.d-flex h3{
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #111;
+    font-weight: 700;
+    padding: 20px 0;
+}
+.d-flex h3 span{
+    color: orangered;
+    font-weight: 800;
+}
+.col1{
+    margin-top: 170px;
+    margin-left: 40px;
+}
+.d-flex .col1 p{
+    font-size: 25px;
+    color: #3e3333;
+    padding: 5px 0;
+    text-transform: capitalize;
+}
+.btn{
+    padding: 12px;
+    width: 150px;
+    margin: 16px 0;
+    background: orangered;
+    color: #fff;
+    font-size: 16px;
+}
+.btn:hover{
+    background: #111;
+    letter-spacing: 2px;
+}
+.row-1{
+    display: flex;
+}
+.image img{
+    width: 500px;
+    height: 90vh;
+    margin-top: 50px;
+    border: 6px solid rgb(48, 45, 45);
+    box-shadow: #666;
+}
+section#about {
+    margin-top: 84px;
+}
+.heading{
+    text-transform: uppercase;
+    font-size: 32px;
+}
+.heading span{
+    color:orangered;
+}
+.content{
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.content h3{
+    color: #333;
+    font-size: 32px;
+    text-transform: capitalize;
+}
+.content p{
+    color: #2d2020;
+    font-size: 20px;
+    padding: 24px 0;
+    text-transform: capitalize;
+}
+.box-container{
+    padding: 8px 0;
+}
+.box-container .box span{
+   color: orangered;
+   text-transform: capitalize;
+}
+.box-container .box .me2{
+   text-transform: lowercase;
+}
+.content .k{
+    padding: 12px;
+    width: 150px;
+    margin: 16px 0;
+    background: orangered;
+    color: #fff;
+    font-size: 16px;
+}
+.content .k:hover{
+    background-color: #111;
+    letter-spacing: 1px;
+}
+.row2{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    padding: 24px 0;
+}
+.row2 .col3 img {
+    width:240px;
+    height: 30vh;
+    border-radius:50% ;
+    border: 1px solid black;
+}
+.row2 .col3{
+    padding: 8px;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px 2px #eaeaea;
+    transition: 0.3s;
+    margin: 8px;
+}
+.row2 .col3:hover{
+    transform: scale3d(1.05,1.05,1.05);
+}
+.row2 .col3 h2{
+    color: rgb(74, 71, 70);
+    font-weight: bolder;
+    text-align: center;
+}
+.row2 .col3 a button{
+    padding: 12px;
+    width: 150px;
+    margin: 16px 0;
+    background: orangered;
+    color: #fff;
+    font-size: 12px;
+    margin-left: 50px;
+}
+.row2 .col3 a button:hover{
+    background-color: #111;
+    letter-spacing: 1px;
+}
+h1.heading1 {
+    margin-top: 88px;
+    font-size: 32px;
+    color: rgb(14, 14, 14);
+}
+.col3{
+    border: 8px solid azure ;
+}
+.col3:hover{
+    background-color: rgb(224, 232, 232);
+}
+.row3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding: 24px 0;
+}
+.row3 .col4{
+    padding: 16px;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px 2px #eaeaea;
+    transition: 0.3s;
+    margin: 8px;
+}
+.row3 .col4:hover{
+    transform: scale3d(1.05,1.05,1.05);
+}
+.row3 .col4 img{
+    width:230px;
+    height: 30vh;
+    border-radius:50% ;
+    border: 1px solid black;
+}
+.row3 .col4 h2{
+    color: rgb(74, 71, 70);
+    font-weight: bolder;
+    text-align: center;
+}
+.row3 .col4 a button{
+    padding: 12px;
+    width: 150px;
+    margin: 16px 0;
+    background: orangered;
+    color: #fff;
+    font-size: 12px;
+    margin-left: 50px;
+}
+.row3 .col4 a button:hover{
+    background-color: #111;
+    letter-spacing: 1px;
+}
+.col4{
+    border: 8px solid azure ;
+}
+.col4:hover{
+    background-color: rgb(224, 232, 232);
+}
+.fevorite{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.fevorite img{
+    width:320px;
+    height: 30vh;
+    border: 1px solid black;
+}
+.fevorite .m{
+    padding: 16px;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px 2px #eaeaea;
+    transition: 0.3s;
+    margin: 8px;
+}
+.fevorite .m:hover{
+    transform: scale3d(1.05,1.05,1.05);
+}
+.fevorite h2{
+    color: olive;
+    margin: 8px 0;
+}
+.fevorite p{
+    font-size: 18px;
+    padding: 8px 0;
+    text-transform: capitalize;
+    color: #3d3131;
+}
+.fevorite a{
+    padding: 24px 0;
+}
+.song{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.song div{
+    padding: 16px;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px 2px #eaeaea;
+    transition: 0.3s;
+    margin: 8px;
+}
+.song h3{
+    text-transform: capitalize;
+    font-size: 24px;
+    padding: 8px 0;
+    color: olive;
+}
+.song p{
+    padding: 8px 0;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: #3d3131;
+}
+.row5{
+    margin: 16px 0;
+}
+.row5 p{
+    padding: 8px 0;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: #3d3131;
+}
+input[type="text"] {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    background: black;
+    color: white;
+    padding: 12px 16px;
+    text-transform: uppercase;
+    display: block;
+}
+
+input[type="submit"]:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+
+
